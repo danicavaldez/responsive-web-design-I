@@ -156,7 +156,7 @@ h2 {
 }
 
 .section-2 .subsection {
-	width: 33%;
+	width: 30%;
 }
 
 .contact {
@@ -263,3 +263,53 @@ li {
 	font-size: 14px;
 }
 
+
+/* tablet */
+@media( max-width: 800px ) {
+  .nav-logo {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .logo {
+   margin-top: 0px;
+   margin-bottom: 30px;
+  }
+
+  .column-right {
+    display: none;
+  }
+  
+  body {
+    width: 90%;
+    margin: 20px auto;
+  }
+  
+  .middle-img {
+    width: 100%;
+  }
+  .section-1 div{
+    padding-top: 30px;
+    height: 95px;
+  }
+
+  section-2 .subsection {
+    width: 30%;
+  }
+  
+  nav {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+/* phone */
+@media( max-width: 500px ) {
+
+  nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+
+}
